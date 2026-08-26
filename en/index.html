@@ -64,6 +64,14 @@
             text-align: justify;
         }
 
+        ul {
+            margin: 10px 0 15px 25px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
         .section {
             margin-bottom: 25px;
             background: #f8f9fa;
@@ -108,6 +116,10 @@
             color: #2c3e50;
         }
 
+        a {
+            color: #2980b9;
+        }
+
         @media (prefers-color-scheme: dark) {
             body {
                 background-color: #1a1a1a;
@@ -134,71 +146,379 @@
             h1, strong {
                 color: #ffffff;
             }
+
+            a {
+                color: #63b3ed;
+            }
         }
     </style>
 </head>
+
 <body>
 <div class="container">
+
     <div class="header">
-        <div class="app-name">Tiplens</div>
-        <div class="effective-date">Effective Date: August 10, 2026</div>
+        <div class="app-name">GratCheck</div>
+        <div class="effective-date">
+            Effective date: August 26, 2026
+        </div>
     </div>
 
     <div class="section">
-        <p>Thank you for using Tiplens. We value your privacy and are committed to protecting your data. This privacy policy explains what data we collect, how we use it, and your rights.</p>
+        <p>
+            Thank you for using GratCheck.
+            We value your privacy and aim to clearly explain what data is used
+            by the application, why it is used, and what choices are available to you.
+        </p>
+
+        <p>
+            This Privacy Policy describes how data is handled when you use GratCheck.
+        </p>
     </div>
 
     <h1>1. General Information</h1>
-    <p>Tiplens is a tips and shift management application. All your tips data and shifts are stored locally on your device.</p>
+
+    <p>
+        GratCheck is an application for tracking tips, work rates,
+        work schedules, and viewing earnings statistics.
+    </p>
+
+    <p>
+        The application does not require you to create a user account.
+    </p>
+
+    <p>
+        The main data created by the user is stored locally on the user's device.
+    </p>
 
     <div class="highlight">
-        <strong>💡 Important:</strong> All your tips and shifts data is stored only on your device and is not transmitted to our servers.
+        <strong>💡 Important:</strong>
+        Your tip records, work shifts, work rates, notes, and earnings statistics
+        are stored locally on your device and are not sent to the application's servers.
     </div>
 
-    <h1>2. Data Collection and Usage</h1>
+    <h1>2. User Data</h1>
 
-    <h2>2.1 User Data</h2>
-    <p>All notes, reminders, and user content you create are stored exclusively on your device and are not transmitted to our servers or third parties.</p>
+    <p>
+        All data that you create or enter into the application is stored locally
+        on your device.
+    </p>
 
-    <h2>2.2 Notifications</h2>
-    <p>To send scheduled reminders and app update notifications, the app uses push services. This process involves generating and using a device token - a unique identifier required to deliver messages to your device.</p>
+    <p>This may include:</p>
+
+    <ul>
+        <li>tip records;</li>
+        <li>work rates;</li>
+        <li>work shifts and work schedules;</li>
+        <li>notes;</li>
+        <li>data required to calculate earnings statistics;</li>
+        <li>application settings.</li>
+    </ul>
+
+    <p>
+        We do not have access to the contents of your tip records,
+        work shifts, work rates, notes, or earnings statistics.
+    </p>
+
+    <h1>3. Notifications</h1>
+
+    <p>
+        The application may send local notifications reminding you
+        to record your tips for a workday.
+    </p>
 
     <div class="permission-item">
-        <strong>Notifications</strong> — to send you reminders according to your work schedule and receive push notifications about possible app updates.
+        <strong>Notifications</strong> — are used only to remind you
+        to record your tips for a workday.
     </div>
 
-    <h2>2.3 Analytics and App Improvement</h2>
-    <p>To analyze crashes and improve app stability, we collect anonymous crash logs and performance data. This data does not contain personal information and is used solely for diagnostics and improvement.</p>
+    <p>
+        Notifications are not used for advertising or marketing messages.
+    </p>
 
-    <h2>2.4 Advertising</h2>
+    <p>
+        The application uses the operating system's notification mechanisms
+        to provide these reminders.
+    </p>
+
+    <p>
+        You can disable notifications at any time:
+    </p>
+
+    <ul>
+        <li>in the application settings;</li>
+        <li>in the system settings of your device.</li>
+    </ul>
+
+    <p>
+        Disabling notifications does not affect other application features
+        and does not delete previously saved user data.
+    </p>
+
+    <h1>4. Analytics</h1>
+
+    <p>
+        We use <strong>Firebase Analytics</strong>, provided by Google,
+        to analyze application usage and improve the application.
+    </p>
+
+    <p>
+        Firebase Analytics may automatically process technical and statistical
+        information related to the use of the application, such as:
+    </p>
+
+    <ul>
+        <li>device type and model;</li>
+        <li>operating system version;</li>
+        <li>application version;</li>
+        <li>information about interactions with application features;</li>
+        <li>technical identifiers used by the service;</li>
+        <li>other technical information required for analytics.</li>
+    </ul>
+
+    <p>
+        This information is used to analyze application usage,
+        evaluate features, and improve the application.
+    </p>
+
+    <h1>5. Crash Diagnostics</h1>
+
+    <p>
+        We use <strong>Firebase Crashlytics</strong>, provided by Google,
+        to detect, analyze, and resolve technical problems and application crashes.
+    </p>
+
+    <p>
+        Crashlytics may automatically collect technical information
+        related to application crashes, including:
+    </p>
+
+    <ul>
+        <li>device model and type;</li>
+        <li>operating system version;</li>
+        <li>application version;</li>
+        <li>information about the crash;</li>
+        <li>technical information about the application's state at the time of the crash;</li>
+        <li>other information required for diagnostics.</li>
+    </ul>
+
+    <p>
+        This information is used to detect errors, analyze crashes,
+        improve stability, and improve the quality of the application.
+    </p>
+
+    <p>
+        Crashlytics is not used to store user records of tips,
+        work shifts, work rates, notes, or earnings statistics.
+    </p>
+
+    <h1>6. Advertising</h1>
+
     <div class="advertising-info">
-        <p>The app displays advertising banners. For ad display and personalization, advertising networks may automatically collect and process the following data:</p>
-        <ul style="margin-left: 20px; margin-top: 10px;">
-            <li>Device identifiers (Advertising ID)</li>
-            <li>Device information (device type, OS version)</li>
-            <li>Data on interaction with ads</li>
+
+        <p>
+            GratCheck displays advertisements.
+            The application uses <strong>Yandex</strong> advertising services
+            to display advertisements.
+        </p>
+
+        <p>
+            Advertising services may automatically process technical information
+            required to display advertisements and measure advertising performance.
+        </p>
+
+        <p>This information may include:</p>
+
+        <ul>
+            <li>the device's advertising identifier (Advertising ID), if available;</li>
+            <li>device information;</li>
+            <li>device model;</li>
+            <li>operating system version;</li>
+            <li>technical information about the advertising SDK;</li>
+            <li>information about interactions with advertisements;</li>
+            <li>information required to measure advertising performance.</li>
         </ul>
-        <p style="margin-top: 10px;">This data collection is carried out by advertising partners in accordance with their privacy policies. The app uses Yandex Advertising Network.</p>
-        <p style="margin-top: 10px;"><strong>Yandex Privacy Policy:</strong> <a href="https://yandex.ru/legal/confidential/" target="_blank">https://yandex.ru/legal/confidential/</a></p>
+
+        <p>
+            Data processing by the advertising service is carried out
+            in accordance with the privacy policy of the relevant provider.
+        </p>
+
+        <p>
+            <strong>Yandex Privacy Policy:</strong>
+            Yandex Privacy Policy
+        </p>
+
     </div>
 
-    <h1>3. Your Consent</h1>
-    <p>By using the app, you consent to the processing of technical data as described in this policy. You can accept or decline this consent when first launching the app.</p>
+    <h1>7. Personalized Advertising</h1>
 
-    <h1>4. Data Storage</h1>
-    <p>All your user data (tips, shifts, notes) is stored locally. Technical data may be processed by our partners for the purposes described above.</p>
+    <p>
+        After reviewing this Privacy Policy during the first launch of the application,
+        you will be separately asked whether you allow personalized advertising.
+    </p>
 
-    <h1>5. Security</h1>
-    <p>We take reasonable measures to protect the data we handle. However, please be aware that the security of data stored locally on your device also depends on your device's settings.</p>
+    <div class="permission-item">
+        <strong>Allow personalized advertising</strong>
+        — advertising services may use available advertising data
+        to provide more relevant advertisements.
+    </div>
 
-    <h1>6. Changes to the Privacy Policy</h1>
-    <p>We may update this privacy policy from time to time. All changes will be posted within the app. By continuing to use the app after changes are made, you accept the updated policy.</p>
+    <div class="permission-item">
+        <strong>Don't allow</strong>
+        — personalized advertising based on this choice is not permitted.
+    </div>
 
-    <h1>7. Contact</h1>
+    <p>
+        Permission for personalized advertising is a separate user choice
+        and is not required to use the main features of the application.
+    </p>
+
+    <p>
+        If you do not allow personalized advertising,
+        advertisements may still be displayed.
+        In this case, non-personalized or contextual advertising may be shown.
+    </p>
+
+    <div class="highlight">
+        <strong>💡 Important:</strong>
+        Refusing personalized advertising does not mean that all advertising
+        will be disabled.
+    </div>
+
+    <h1>8. Storage of Your Advertising Choice</h1>
+
+    <p>
+        Your choice regarding personalized advertising is stored locally
+        on your device.
+    </p>
+
+    <p>
+        The application stores whether you have allowed or refused
+        personalized advertising.
+    </p>
+
+    <p>
+        This choice is not sent to the application's own servers.
+    </p>
+
+    <h1>9. Third-Party Services</h1>
+
+    <p>
+        The application uses third-party services and software components
+        for certain features:
+    </p>
+
+    <ul>
+        <li><strong>Firebase Analytics</strong> — application usage analytics;</li>
+        <li><strong>Firebase Crashlytics</strong> — crash diagnostics;</li>
+        <li><strong>Yandex Mobile Ads</strong> — displaying advertisements.</li>
+    </ul>
+
+    <p>
+        Data processing by these providers is carried out in accordance
+        with their respective privacy policies and terms of use.
+    </p>
+
+    <h1>10. Sharing of Data with Third Parties</h1>
+
+    <p>
+        We do not sell or share the contents of your tip records,
+        work shifts, work rates, notes, or earnings statistics with third parties.
+    </p>
+
+    <p>
+        However, third-party SDKs integrated into the application may independently
+        process technical information required to provide their respective services.
+    </p>
+
+    <h1>11. Data Storage and Deletion</h1>
+
+    <p>
+        The main user data of the application is stored locally on the user's device.
+    </p>
+
+    <p>This includes:</p>
+
+    <ul>
+        <li>tips;</li>
+        <li>work rates;</li>
+        <li>work shifts;</li>
+        <li>work schedules;</li>
+        <li>notes;</li>
+        <li>earnings statistics;</li>
+        <li>application settings;</li>
+        <li>the user's personalized advertising choice.</li>
+    </ul>
+
+    <p>
+        You can delete locally stored application data using
+        the features provided by your operating system.
+    </p>
+
+    <p>
+        Technical data collected by third-party services is stored and deleted
+        by the respective providers in accordance with their data retention policies.
+    </p>
+
+    <h1>12. Security</h1>
+
+    <p>
+        We take reasonable measures to protect data processed by the application.
+    </p>
+
+    <p>
+        The main user data is stored directly on the user's device
+        and is not transmitted to the application's servers.
+    </p>
+
+    <p>
+        The security of locally stored data also depends on the security
+        settings of the user's device.
+    </p>
+
+    <h1>13. Your Rights and Choices</h1>
+
+    <p>You may:</p>
+
+    <ul>
+        <li>use the application without creating an account;</li>
+        <li>disable notifications in the application;</li>
+        <li>disable notifications in the system settings;</li>
+        <li>refuse personalized advertising;</li>
+        <li>manage advertising settings through the operating system,
+            where such options are provided by the platform;</li>
+        <li>delete locally stored application data using the operating system.</li>
+    </ul>
+
+    <h1>14. Changes to This Privacy Policy</h1>
+
+    <p>
+        We may periodically update this Privacy Policy.
+    </p>
+
+    <p>
+        When changes are made, the updated version will be published
+        in the application and/or on the Privacy Policy webpage.
+    </p>
+
+    <p>
+        The effective date is shown at the beginning of this Privacy Policy.
+    </p>
+
+    <h1>15. Contact</h1>
+
     <div class="contact-info">
-        <p>If you have any questions or suggestions regarding this privacy policy, please contact us at:</p>
-        <p><strong>NpdAppReview@gmail.com</strong></p>
+        <p>
+            If you have any questions, suggestions, or concerns regarding
+            this Privacy Policy or the processing of data, please contact us:
+        </p>
+
+        <p>
+            <strong>NpdAppReview@gmail.com</strong>
+        </p>
     </div>
+
 </div>
 </body>
 </html>
